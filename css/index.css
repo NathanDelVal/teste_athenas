@@ -9,6 +9,14 @@ html, body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+i, [class*=dx]::before {
+    font-weight: 900;
+}
+
 .dx-button, .dx-button * {
     background: #70b165 !important;
     color: white !important;
@@ -16,7 +24,6 @@ html, body {
 
 .dx-link-edit, .dx-link-delete {
     color: white !important;
-    text-decoration: none !important;
 }
 
 .dx-link-edit {
