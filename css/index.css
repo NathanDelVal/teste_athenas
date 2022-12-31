@@ -17,6 +17,10 @@ i, [class*=dx]::before {
     font-weight: 900;
 }
 
+#gridContainer * {
+    vertical-align: middle;
+}
+
 .dx-button, .dx-button * {
     background: #70b165 !important;
     color: white !important;
