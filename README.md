@@ -1,5 +1,5 @@
 # teste_athenas
-teste de front-end utilizando biblioteca JS de UI e conexão com banco de dados utilizando DevExtreme
+CRUD utilizando biblioteca JS de UI e conexão com banco de dados utilizando DevExtreme
 <br>
 é --> Necessário <-- configurar um banco de dados para receber os dados. 
 <br>
