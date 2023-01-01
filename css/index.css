@@ -21,21 +21,21 @@ i, [class*=dx]::before {
     vertical-align: middle;
 }
 
-.dx-button, .dx-button * {
+#gridContainer .dx-button, #gridContainer .dx-button * {
     background: #70b165 !important;
     color: white !important;
 }
 
-.dx-link-edit, .dx-link-delete {
+#gridContainer .dx-link-edit, #gridContainer .dx-link-delete {
     color: white !important;
 }
 
-.dx-link-edit {
+#gridContainer .dx-link-edit {
     padding: 7px 18px 8px;
     background: #3b7db3; 
 }
 
-.dx-link-edit::before {
+#gridContainer .dx-link-edit::before {
     font-family: "Font Awesome 5 Free";
     content: "\f044";
     display: inline-block;
@@ -44,12 +44,12 @@ i, [class*=dx]::before {
     font-weight: 900;
 }
 
-.dx-link-delete {
+#gridContainer .dx-link-delete {
     padding: 7px 18px 8px;
     background: #cf6053;
 }   
 
-.dx-link-delete::before {
+#gridContainer .dx-link-delete::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     content: "\f2ed";
@@ -58,11 +58,11 @@ i, [class*=dx]::before {
     font-weight: 900;
 }
 
-[role="columnheader"] {
+#gridContainer [role="columnheader"] {
     font-weight:bold;
     color: black;
 }
 
-.dx-datagrid-rowsview tr:nth-child(odd) {
+#gridContainer .dx-datagrid-rowsview tr:nth-child(odd) {
     background: #f9f9f9;
 }
