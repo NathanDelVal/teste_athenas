@@ -10,6 +10,7 @@
     $("#gridContainer").dxDataGrid({
         dataSource: db,
         keyExpr: "id",
+        remoteOperations: true,
         columns: [{
             dataField: "FirstName",
             fixed: true

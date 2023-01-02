@@ -66,3 +66,8 @@ i, [class*=dx]::before {
 #gridContainer .dx-datagrid-rowsview tr:nth-child(odd) {
     background: #f9f9f9;
 }
+
+#gridContainer .dx-page-indexes .dx-selection {
+    background: #3b7db3; 
+    color: white;
+}
